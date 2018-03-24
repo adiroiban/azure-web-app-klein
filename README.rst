@@ -51,4 +51,3 @@ From the virtualenv use this to run on port 8080::
     . build/bin/activate
     pip install -r requirements-linux.txt
     python -m twisted web -p tcp:8080 --class=twistdPlugin.resource
-g
